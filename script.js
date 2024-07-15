@@ -1,16 +1,22 @@
-const images = document.getElementById('img');
-const img = document.querySelectorAll('#img img');
 
-let counter = 0;
+let time = 2000;
+let currentImg = 0;
+let img = document.querySelectorAll(".slider img");
+let max = img.length;
 
-function carrossel(){
-    counter++;
-
-    if(counter>img.length - 1){
-        counter = 0;
+function nextImg(){
+    img[currentImg].classList.remove("selected");
+    currentImg++;
+    if(currentImg >= max){
+        currentImg = 0;
     }
-
-    images.style.transform = `translateX(${-counter *1280}px)`
+    img[currentImg].classList.add("selected");
 }
 
-setInterval(carrossel, 2000);
+function start(){
+    setInterval(() => {
+        nextImg();
+    }, time);
+}
+
+window.addEventListener("load", start);
