@@ -208,8 +208,8 @@ p{
 }
 
 .artistas .icon-kendrick img{
-  width: 500px;
-  height: 500px;
+  width: 300px;
+  height: 300px;
 }
 
 .artistas .conteudo-kendrick .icon-kendrick{
@@ -217,12 +217,40 @@ p{
   float: left;
 }
 
-.artistas .conteudo-kendrick .texto-kendrick{
-  display: table-cell;
+.artistas .texto-kendrick{
+  width: 300px;
+  margin-left: 20px;
   float: left;
+}
+
+.artistas .texto-kanye{
+  width: 300px;
+  margin-left: 20px;
+  float: left;
+  position: relative;
+}
+
+.artistas .texto-frank{
   width: 300px;
   margin-left: 20px;
 }
+
+.icon-kanye img{
+  width: 300px;
+  height: 300px;
+  margin-left: -400px;;
+}
+
+.icon-frank img{
+  width: 300px;
+  height: 300px;
+}
+
+
+.Sobre .sobre{
+  display: block;
+  float:none;
+} 
 
 h2, h3, p {
   color: floralwhite;
