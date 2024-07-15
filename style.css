@@ -1,0 +1,231 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Oswald";
+}
+
+/* Cor de fundo do site*/
+body{
+  background-color: #000;
+}
+
+/* Largura e altura máxima do menu*/
+.menu{
+    max-width: 1280px;
+    margin: 0 auto;  
+    z-index: 1;
+}
+
+/* Cor de fundo do menu de baixo*/
+  header{
+    width: 100%;
+    background-color: #ffc700; 
+  }
+  
+  /* Cor de fundo do menu de cima*/
+  .top-header{
+    background-color: rgb(0, 0, 0);
+    padding: 10px 2%;
+  }
+  
+  /* Tamanho do logotipo do menu top*/
+  .top-header .logotipo img{
+    max-width: 65px;
+  }
+  
+  /* Espaçamento e alinhamento do top header (menu de cima)*/
+  .top-header > .menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Espaçamento e alinhamento das imagens de rede social no top header (menu de cima)*/
+  .top-header .left-top-images img{
+   max-width: 65px;
+   max-height: 65px;
+  }
+  
+  /* Espaçamento e alinhamento dos elementos dentro do bottom header*/
+  .bottom-header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    
+  }
+  
+  /* Cores, transição e estilos dentro do bottom menu*/
+  .bottom-header nav ul li a{
+    color: #000000;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  /* Cores do menu hover*/
+  .bottom-header nav ul li a:hover{
+    background-color: #ffc700;
+    box-shadow: inset 0 0 4px #000;
+  }
+  
+  /* Efeito do menu hover*/
+  .menu-hover{
+    position: relative;
+  }
+  
+  /* Estilo do menu hover*/
+  .menu-hover .dropdown{
+    background-color: rgb(255, 250, 250);
+    position: absolute;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  
+  /* Tamanho do menu hover*/
+  .menu-hover:hover  .dropdown{
+    height: 190px;
+  }
+
+  /*Configurações iniciais do banner
+  section.slider{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+  }
+  */
+
+  /* Tamanho das imagens e dos radio button
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+  }*/
+  
+
+
+/* Espaçamento e alinhamento slide (radio e img)*/
+.banner {
+  width: 1280px;
+  overflow: hidden;
+}
+
+/* Tamanho das imagens */
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
+  
+}
+
+img{
+  width: 1280px;
+  object-fit: cover;
+}
+
+h1{
+  color:aliceblue;
+}
+
+/* Espaçamento e alinhamento do label button manual e automatico
+.navigation-btn, .navigation-auto{
+  position: absolute;
+  width: 800px;
+  margin-top: -350px;
+  margin-left: 530px;
+  display: flex;
+  justify-content: center;
+}*/
+
+/* Estilos do label button
+.navigation-btn .manual-btn, .navigation-auto div{
+  border: 2px solid #ffc700;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+*/
+
+/* Espaçamento do label radio button
+.navigation-btn .manual-btn:not(:last-child), .navigation-auto div:not(:last-child){
+  margin-right: 10px;
+}
+
+
+.navigation-btn .manual-btn:hover{
+  background-color: #ffc700;
+}
+*/
+/*Marcação do radio button
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background-color: #ffc700;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background-color: #ffc700;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background-color: #ffc700;
+}
+*/
+
+section.home{
+  text-align: center;
+}
+
+section.artistas{
+  margin-top: 20px;
+
+}
+
+section.sobre{
+  margin-top: 20px;
+
+}
+
+h3{
+  color: floralwhite;
+}
+
+h2{
+  color: floralwhite;
+}
+
+p{
+  color: floralwhite;
+  text-align: justify;
+}
+
+.artistas .icon-kendrick img{
+  width: 500px;
+  height: 500px;
+}
+
+.artistas .conteudo-kendrick .icon-kendrick{
+  display: table-cell;
+  float: left;
+}
+
+.artistas .conteudo-kendrick .texto-kendrick{
+  display: table-cell;
+  float: left;
+  width: 300px;
+  margin-left: 20px;
+}
+
+h2, h3, p {
+  color: floralwhite;
+  text-align: justify; /* Texto justificado */
+}
+
