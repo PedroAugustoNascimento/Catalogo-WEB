@@ -272,21 +272,3 @@ footer .developed {
 }
 
 /*Inspiração: https://www.last.fm*/
-
-/* Animação da div em css 
-.imgkendrick::before{
-  content: "";
-  position: absolute;
-  border-radius: 40px;
-  width: 300px;
-  height: 310px;
-  background: linear-gradient(140deg, #ffc700, white);
-  animation: animate 5s linear infinite;
-}
-
-@keyframes animate {
-  100%{
-    transform: rotate(360deg)
-  }
-}
-*/
