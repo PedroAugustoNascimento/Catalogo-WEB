@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Catalogo</title>
+  <link rel="shortcut icon" href="images/logo.png">
   <link rel="stylesheet" href="style.css" />
   <script src="script.js" defer></script>
   <!-- Link para fonte OSWALD -->
@@ -22,18 +23,18 @@
       <div class="menu">
         <!-- Logotipo no canto superior direito -->
         <div class="logotipo">
-          <img src="/images/logo.png" alt="Good Artist with Good Songs">
+          <img src="images/logo.png" alt="Good Artist with Good Songs">
         </div>
         <!-- Imagens dos meios de reprodução no canto superior esquerdo-->
         <div class="left-top-images">
           <a href="https://open.spotify.com/intl-pt">
-            <img src="/images/spotify.png" alt="Spotify">
+            <img src="images/spotify.png" alt="Spotify">
           </a>
           <a href="https://music.youtube.com/">
-            <img src="/images/ytmusic.jpg" alt="Youtube Music">
+            <img src="images/ytmusic.jpg" alt="Youtube Music">
           </a>
           <a href="https://www.deezer.com/br/">
-            <img src="/images/deezer.jpg" alt="Deezer">
+            <img src="images/deezer.jpg" alt="Deezer">
           </a>
         </div>
       </div>
@@ -43,15 +44,16 @@
       <div class="menu-dropdown">
         <nav>
           <ul>
-            <li><a href="#">HOME</a></li>
+            <li><a href="#conceito">HOME</a></li>
             <li class="menu-hover"><a href="#">ARTISTAS</a>
               <div class="dropdown">
-                <a href="#">KENDRICK LAMAR</a>
-                <a href="#">KANYE WEST</a>
-                <a href="#">FRANK OCEAN</a>
+                <a href="#kendrick">KENDRICK LAMAR</a>
+                <a href="#kanye">KANYE WEST</a>
+                <a href="#frank">FRANK OCEAN</a>
+                <a href="#tyler">TYLER THE CREATOR</a>
               </div>
             </li>
-            <li><a href="#">SOBRE</a></li>
+            <li><a href="#sobre">SOBRE</a></li>
           </ul>
         </nav>
       </div>
@@ -64,29 +66,28 @@
     <img class="selected" src="images/frankbanner.jpg">
     <img src="images/kanyebanner.jpg">
     <img src="images/kendrickbanner.jpg">
+    <img src="images/tylerbanner.jpg">
   </div>
 
 
   <!--Home-->
   <div class="padrao">
-    <div class="titulo">
+    <div class="titulo" id="conceito">
       <h3>Conceito</h3>
     </div>
     <br>
     <div class="textohome">
       <br>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi modi atque deleniti. Possimus minima cumque
-        necessitatibus <br>provident ad dolor veniam vero odit voluptatibus cupiditate! Totam, consectetur accusamus.
-        Quisquam, harum illum?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi modi atque deleniti. Possimus minima cumque
-        necessitatibus <br>provident ad dolor veniam vero odit voluptatibus cupiditate! Totam, consectetur accusamus.
-        Quisquam, harum illum?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi modi atque deleniti. Possimus minima cumque
-        necessitatibus <br>provident ad dolor veniam vero odit voluptatibus cupiditate! Totam, consectetur accusamus.
-        Quisquam, harum illum?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi modi atque deleniti. Possimus minima cumque
-        necessitatibus <br>provident ad dolor veniam vero odit voluptatibus cupiditate! Totam, consectetur accusamus.
-        Quisquam, harum illum?
+      <p>
+        Um catálogo de músicas é uma coleção organizada de registros musicais disponíveis para reprodução, geralmente em
+        formato digital. Pode ser mantido por uma gravadora, plataforma de streaming, biblioteca musical ou até mesmo
+        por um artista individual.
+        Este catálogo pode incluir álbuns completos, singles, faixas individuais e versões ao vivo de músicas de
+        diversos gêneros e artistas. A ideia é fornecer um banco de dados acessível onde usuários possam explorar,
+        descobrir e ouvir músicas de seu interesse.O foco princpal deste catálogo é trazer uma biblioteca virtual de
+        maneira diferente... Além de citar as músicas do artistas, é trago um pequeno resumo de cada álbum, com sua
+        estética, hits com a inteção de preparar o ouvinte para uma experiência musical única.
+      </p>
     </div>
   </div>
   </div>
@@ -95,42 +96,109 @@
   <div class="artistas">
     <!--Kendrick-->
     <div class="kendrickefrank">
-      <div class="imgkendrick">
+      <div class="imgkendrick" id="kendrick">
         <img src="images/kendrickicon.jpg">
 
       </div>
       <div class="textokendrickefrank">
         <h3>Álbuns</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi modi atque deleniti. Possimus minima cumque
-          necessitatibus <br>provident ad dolor veniam vero odit voluptatibus cupiditate! Totam, consectetur accusamus.
-          Quisquam, harum illum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi modi atque deleniti. Possimus minima cumque
-          necessitatibus <br>provident ad dolor veniam vero odit voluptatibus cupiditate! Totam, consectetur accusamus.
-          Quisquam, harum illum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi modi atque deleniti. Possimus minima cumque
-          necessitatibus <br>provident ad dolor veniam vero odit voluptatibus cupiditate! Totam, consectetur accusamus.
-          Quisquam, harum illum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi modi atque deleniti. Possimus minima cumque
-          necessitatibus <br>provident ad dolor veniam vero odit voluptatibus cupiditate! Totam, consectetur accusamus.
-          Quisquam, harum illum?
+        <a href="https://genius.com/albums/Kendrick-lamar/Section-80">
+          <h2>Section.80 (2011)</h2>
+        </a> - Este álbum foi o primeiro álbum de estúdio de Kendrick Lamar, lançado independentemente pela Top Dawg
+        Entertainment. Ele ganhou reconhecimento crítico e ajudou a estabelecer Kendrick como uma figura importante no
+        rap underground.
+        <br>
+        <a href="https://genius.com/albums/Kendrick-lamar/Good-kid-m-a-a-d-city-deluxe-version">
+          <h2>good kid, m.A.A.d city (2012)</h2>
+        </a> - Lançado pela Top Dawg Entertainment, Aftermath Entertainment e Interscope Records, este álbum foi um
+        marco significativo na carreira de Kendrick Lamar. É frequentemente considerado um dos melhores álbuns de rap da
+        década de 2010 e inclui hits como "Swimming Pools (Drank)" e "Bitch, Don't Kill My Vibe".
+        <br>
+        <a href="https://genius.com/albums/Kendrick-lamar/To-pimp-a-butterfly">
+          <h2>To Pimp a Butterfly (2015)</h2>
+        </a> - Este álbum foi lançado pela Top Dawg Entertainment, Aftermath Entertainment e Interscope Records. É
+        altamente aclamado pela crítica e é conhecido por sua profundidade lírica e experimentação musical. Inclui
+        faixas como "Alright", que se tornou um hino para o movimento Black Lives Matter.
+        <br>
+        <a href="https://genius.com/albums/Kendrick-lamar/Damn">
+          <h2>DAMN. (2017)</h2>
+        </a>- Também lançado pela Top Dawg Entertainment, Aftermath Entertainment e Interscope Records, este álbum
+        mostrou um som mais acessível e comercial de Kendrick Lamar, mas ainda assim profundamente reflexivo e crítico.
+        Inclui sucessos como "HUMBLE." e "DNA.".
+        <br>
+        <a href="https://genius.com/albums/Kendrick-lamar/Mr-morale-the-big-steppers">
+          <h2>Mr. Morale & The Big Steppers (2022)</h2>
+        </a> - Último e mais recente album de Kendrick. O artista deu importantes declarações sobre relacionamento, a
+        afetividade e a responsabilidade de um homem negro adulto. Dentre várias músicas, as mais notáveis são "N95" e
+        "Rich Spirit".
       </div>
     </div>
     <!--Kanye-->
     <div class="kanye">
-      <div class="textokanye">
+      <div class="textokanye" id="kanye">
         <h3>Álbuns</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi modi atque deleniti. Possimus minima cumque
-          necessitatibus <br>provident ad dolor veniam vero odit voluptatibus cupiditate! Totam, consectetur accusamus.
-          Quisquam, harum illum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi modi atque deleniti. Possimus minima cumque
-          necessitatibus <br>provident ad dolor veniam vero odit voluptatibus cupiditate! Totam, consectetur accusamus.
-          Quisquam, harum illum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi modi atque deleniti. Possimus minima cumque
-          necessitatibus <br>provident ad dolor veniam vero odit voluptatibus cupiditate! Totam, consectetur accusamus.
-          Quisquam, harum illum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi modi atque deleniti. Possimus minima cumque
-          necessitatibus <br>provident ad dolor veniam vero odit voluptatibus cupiditate! Totam, consectetur accusamus.
-          Quisquam, harum illum?
+        <p><a href="https://genius.com/albums/Kanye-west/The-college-dropout">
+            <h2>The College Dropout (2004)</h2>
+          </a> - Este álbum marcou a estreia de Kanye West como artista solo e foi lançado pela Roc-A-Fella Records. Ele
+          recebeu aclamação crítica e comercial e inclui singles como "Through the Wire" e "Jesus Walks".
+          <br>
+          <a href="https://genius.com/albums/Kanye-west/Late-registration">
+            <h2> Registration (2005)</h2>
+          </a>
+          - Lançado pela Roc-A-Fella Records e Def Jam Recordings, este álbum continuou o sucesso de Kanye West. Ele
+          apresenta colaborações com artistas como Jamie Foxx e inclui hits como "Gold Digger" e "Touch the Sky".
+          <br>
+          <a href="https://genius.com/albums/Kanye-west/Graduation">
+            <h2>Graduation (2007)</h2>
+          </a>
+          - Também lançado pela Roc-A-Fella Records e Def Jam Recordings, este álbum foi um marco na carreira de Kanye
+          West. Ele apresenta um som mais eletrônico e inclui singles como "Stronger" e "Good Life".
+          <br>
+          <a href="https://genius.com/albums/Kanye-west/808s-heartbreak">
+            <h2>808s & Heartbreak (2008)</h2>
+          </a>
+          - Este álbum trouxe uma mudança significativa no estilo musical de Kanye West, incorporando o uso extensivo do
+          Auto-Tune e explorando temas mais emocionais. Inclui faixas como "Love Lockdown" e "Heartless".
+          <br>
+          <a href="https://genius.com/albums/Kanye-west/My-beautiful-dark-twisted-fantasy">
+            <h2>My Beautiful Dark Twisted Fantasy (2010)</h2>
+          </a>
+          - Amplamente considerado como um dos melhores álbuns de Kanye West, foi lançado pela Roc-A-Fella Records e Def
+          Jam Recordings. É um trabalho ambicioso e experimental, incluindo faixas como "Runaway" e "All of the Lights".
+          <br>
+          <a href="https://genius.com/Kanye-west-i-am-a-god-lyrics">
+            <h2>Yeezus (2013)</h2>
+          </a>
+          - Este álbum apresenta um som mais industrial e minimalista, refletindo uma abordagem mais sombria e
+          agressiva. Foi lançado pela Roc-A-Fella Records e Def Jam Recordings e inclui singles como "Black Skinhead" e
+          "Bound 2".
+          <br>
+          <a href="https://genius.com/albums/Kanye-west/The-life-of-pablo">
+            <h2>The Life of Pablo (2016)</h2>
+          </a>
+          - Originalmente lançado de forma exclusiva no Tidal e depois amplamente distribuído, este álbum foi lançado
+          pela GOOD Music e Def Jam Recordings. Ele apresenta uma mistura eclética de estilos musicais e inclui faixas
+          como "Famous" e "Ultralight Beam".
+          <br>
+          <a href="https://genius.com/albums/Kanye-west/Ye">
+            <h2>ye (2018)</h2>
+          </a>
+          - Este álbum, lançado pela GOOD Music e Def Jam Recordings, é mais introspectivo e pessoal, abordando temas
+          como saúde mental e família. Inclui singles como "Yikes" e "Ghost Town".
+          <br>
+          <a href="https://genius.com/albums/Kanye-west/Jesus-is-king">
+            <h2>Jesus Is King (2019)</h2>
+          </a>
+          - Este álbum marcou uma mudança significativa para um som gospel e espiritual, refletindo a conversão
+          religiosa de Kanye West. Foi lançado pela GOOD Music e Def Jam Recordings e inclui faixas como "Follow God" e
+          "Closed on Sunday".
+          <br>
+          <a href="https://genius.com/albums/Kanye-west/Donda">
+            <h2>Donda (2021)</h2>
+          </a>
+          - Este álbum homenageia a mãe de Kanye West, Donda West, e foi lançado pela GOOD Music e Def Jam Recordings.
+          Ele explora uma variedade de estilos musicais e inclui singles como "Hurricane" e "Jail".
+        </p>
       </div>
       <div class="imgkanye">
         <img src="images/kanyeicon.jpg">
@@ -139,23 +207,72 @@
       <!--Frank-->
     </div>
     <div class="kendrickefrank">
-      <div class="imgkendrick">
+      <div class="imgkendrick" id="frank">
         <img src="images/frankicon.jpg">
       </div>
       <div class="textokendrickefrank">
         <h3>Álbuns</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi modi atque deleniti. Possimus minima cumque
-          necessitatibus <br>provident ad dolor veniam vero odit voluptatibus cupiditate! Totam, consectetur accusamus.
-          Quisquam, harum illum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi modi atque deleniti. Possimus minima cumque
-          necessitatibus <br>provident ad dolor veniam vero odit voluptatibus cupiditate! Totam, consectetur accusamus.
-          Quisquam, harum illum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi modi atque deleniti. Possimus minima cumque
-          necessitatibus <br>provident ad dolor veniam vero odit voluptatibus cupiditate! Totam, consectetur accusamus.
-          Quisquam, harum illum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi modi atque deleniti. Possimus minima cumque
-          necessitatibus <br>provident ad dolor veniam vero odit voluptatibus cupiditate! Totam, consectetur accusamus.
-          Quisquam, harum illum?
+        <p><a href="https://genius.com/albums/Frank-ocean/Nostalgia-ultra">
+            <h2>nostalgia, ULTRA. (2011)</h2>
+          </a> - Embora não seja um álbum de estúdio oficial, este foi o primeiro projeto solo de Frank Ocean, lançado
+          de forma independente. Ele apresenta uma mistura única de R&B e pop alternativo e inclui faixas como
+          "Novacane" e "Swim Good".
+          <br>
+          <a href="https://genius.com/albums/Frank-ocean/Channel-orange-cd-version">
+            <h2>Channel Orange (2012)</h2>
+          </a>
+          - Este álbum foi o primeiro álbum de estúdio oficial de Frank Ocean, lançado pela Def Jam Recordings. Ele
+          recebeu aclamação crítica significativa e inclui singles como "Thinkin Bout You" e "Pyramids".
+          <br>
+          <a href="https://genius.com/albums/Frank-ocean/Blonde">
+            <h2>Blonde (2016)</h2>
+          </a>
+          - Lançado de forma independente pela Boys Don't Cry, este álbum é altamente elogiado pela crítica e pelos fãs.
+          Ele apresenta uma sonoridade mais experimental e introspectiva, com faixas como "Nikes" e "Self Control".
+      </div>
+    </div>
+    <div class="kanye">
+      <div class="textokanye" id="tyler">
+        <h3>Álbuns</h3>
+        <p>
+          <a href="https://genius.com/albums/Tyler-the-creator/Goblin">
+            <h2>Goblin (2011)</h2>
+          </a> - Este foi o segundo álbum de Tyler, The Creator, lançado pela sua própria gravadora Odd Future Records.
+          É conhecido por suas letras provocativas e polêmicas, e inclui faixas como "Yonkers" e "She".
+          <br>
+          <a href="https://genius.com/albums/Tyler-the-creator/Wolf">
+            <h2>Wolf (2013)</h2>
+          </a>
+          - Lançado pela Odd Future Records e distribuído pela RED Distribution, este álbum mostra um lado mais maduro e
+          introspectivo de Tyler, The Creator. Inclui singles como "Domo23" e "IFHY".
+          <br>
+          <a href="https://genius.com/albums/Tyler-the-creator/Cherry-bomb">
+            <h2>Cherry Bomb (2015)</h2>
+          </a>
+          - Este álbum apresenta uma mistura eclética de estilos musicais, desde o rap até o punk e o funk. Foi lançado
+          pela Odd Future Records e inclui faixas como "Fucking Young / Perfect", "Smuckers" e "Deathcamp".
+          <br>
+          <a href="https://genius.com/albums/Tyler-the-creator/Flower-boy">
+            <h2>Flower Boy (2017)</h2>
+          </a>
+          - Este álbum marcou um ponto de virada na carreira de Tyler, The Creator, recebendo aclamação crítica
+          generalizada. Foi lançado pela Columbia Records e inclui singles como "Who Dat Boy", "911 / Mr. Lonely" e "See
+          You Again".
+          <br>
+          <a href="https://genius.com/albums/Tyler-the-creator/Igor">
+            <h2>IGOR (2019)</h2>
+          </a>
+          - Este álbum inovador e experimental solidificou ainda mais a posição de Tyler, The Creator como um artista
+          visionário. Foi lançado pela Columbia Records e inclui faixas como "EARFQUAKE", "I THINK" e "A BOY IS A GUN".
+          <br>
+          <a href="https://genius.com/albums/Tyler-the-creator/Call-me-if-you-get-lost-the-estate-sale">
+            <h2>CALL ME IF YOU GET LOST (2023)</h2>
+          </a> - Último álbum de Tyler. Trazendo inovações estéticas, audiovisuais e fonoaudiologas. Inclui hits como
+          "JUGGERNAUT" e "WUSYANAME".
+      </div>
+      <div class="imgkanye">
+        <img src="images/tylericon.jpg">
+        </a>
       </div>
     </div>
   </div>
@@ -166,20 +283,8 @@
       <h3>Sobre</h3>
     </div>
     <br>
-    <div class="textohome">
-      <br>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi modi atque deleniti. Possimus minima cumque
-        necessitatibus <br>provident ad dolor veniam vero odit voluptatibus cupiditate! Totam, consectetur accusamus.
-        Quisquam, harum illum?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi modi atque deleniti. Possimus minima cumque
-        necessitatibus <br>provident ad dolor veniam vero odit voluptatibus cupiditate! Totam, consectetur accusamus.
-        Quisquam, harum illum?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi modi atque deleniti. Possimus minima cumque
-        necessitatibus <br>provident ad dolor veniam vero odit voluptatibus cupiditate! Totam, consectetur accusamus.
-        Quisquam, harum illum?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi modi atque deleniti. Possimus minima cumque
-        necessitatibus <br>provident ad dolor veniam vero odit voluptatibus cupiditate! Totam, consectetur accusamus.
-        Quisquam, harum illum?
+    <div class="textohome" id="sobre">
+      <p>Trabalho prático - disciplina WEB I. Bacharelado em Sistemas de Informação - IFMG/Sabará.</p>
     </div>
   </div>
 
@@ -192,9 +297,8 @@
             <img src="images/logo.png" alt="Logo do site">
           </div>
           <div class="imgredes">
-            <img src="images/deezer.jpg">
-            <img src="images/deezer.jpg">
-            <img src="images/deezer.jpg">
+            <img src="images/gitlogo.jpg">
+            <img src="images/instalogo.png">
           </div>
         </div>
       </div>

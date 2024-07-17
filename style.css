@@ -31,7 +31,7 @@ header {
 
 /* Tamanho do logotipo do menu top*/
 .top-header .logotipo img {
-  max-width: 65px;
+  width: 65px;
 }
 
 /* Espaçamento e alinhamento do top header (menu de cima)*/
@@ -53,8 +53,6 @@ header {
   align-items: center;
   justify-content: center;
   list-style-type: none;
-
-
 }
 
 /* Cores, transição e estilos dentro do bottom menu*/
@@ -91,7 +89,7 @@ header {
 
 /* Tamanho do menu hover*/
 .menu-hover:hover .dropdown {
-  height: 190px;
+  height: 275px;
   z-index: 1;
 }
 
@@ -117,7 +115,6 @@ h2,
 h3,
 p {
   color: floralwhite;
-  text-align: justify;
 }
 
 /*Banner*/
@@ -144,6 +141,7 @@ p {
 /*Home*/
 .padrao {
   padding: 90px 0px;
+  text-align: center;
   box-shadow: 0 0 40px 10px #4b4949;
 }
 
@@ -156,18 +154,16 @@ p {
 }
 
 .padrao .textohome {
-  margin: 0 auto;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+  color: white;
+  margin: 0 auto;  
   display: flex;
+  max-width: 800px
 }
-
 
 
 /* Artistas */
 .artistas {
-  padding: 80px 0px;
+  padding: 100px 0px;
   background-color: #ffc700;
   box-shadow: 0 0 40px 10px #4b4949;
 }
@@ -177,7 +173,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 5%;
+  gap: 10%;
   margin-bottom: 60px;
   margin-left: 60px;
   margin-right: 60px;
@@ -217,6 +213,17 @@ p {
   color: #000;
 }
 
+.artistas .textokanye a, .textokendrickefrank a{
+  text-decoration: none;
+  color:#000;
+  font-size: 1em;
+}
+
+.artistas .textokendrickefrank h2, .textokanye h2{
+  color:#000;
+  font-size: 20px;
+}
+
 /* Hover nas imagens*/
 .artistas .imgkendrick img:hover {
   border: solid 5px black;
@@ -245,8 +252,8 @@ footer {
 }
 
 footer img {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
 }
 
 footer .flex {
@@ -263,6 +270,8 @@ footer .developed {
   padding: 20px;
   font-size: 2e;
 }
+
+/*Inspiração: https://www.last.fm*/
 
 /* Animação da div em css 
 .imgkendrick::before{
